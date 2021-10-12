@@ -1,0 +1,106 @@
+body{font-family:'Droid Serif',serif}
+a{color:#f45429}
+a:hover{color:#c23a1a;text-decoration:none}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#f45429}
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff}
+.navbar-wrapper{position:relative;z-index:15}
+.container>.navbar-collapse,.logo{margin:0 10px}
+.navbar-default{margin-top:20px}
+.navbar-nav{font-family:'Open Sans',sans-serif;font-weight:600;font-size:1.08em;margin-left:60px}
+.navbar-default .navbar-nav>li{margin-right:5px}
+.navbar-default .navbar-nav>li>a{color:#fff}
+.navbar-default .navbar-right>li>a{color:#fff}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-right>li>a:hover{border:2px solid #fff;color:#fff}
+.navbar-fixed-top{position:absolute}
+.jumbotron{background-image:url('../img/3_1.jpg');background-attachment:fixed;background-position:center bottom;background-size:cover;position:relative;width:100%;height:725px}
+.jumbotron .hero{background-attachment:fixed;margin:0 auto;padding:220px 0 220px;width:100%}
+.jumbotron .container{text-align:center}
+.jumbotron h1{font-family:'Roboto Slab',serif;font-size:80px;font-weight:700;color:#fff}
+.jumbotron p{font-family:'Open Sans',sans-serif;color:#fff;font-size:25px}
+.promote{padding-top:60px;padding-bottom:40px;margin-top:-25px;background-color:#f2f6dd}
+.container .col-lg-4 h2{font-family:'Open Sans',sans-serif;font-weight:400;margin:5px 10px 20px 0;line-height:36px;font-size:28px}
+.container .col-lg-4 p{font-family:'Roboto Slab',serif;font-weight:300;font-size:14px;line-height:1.6;margin:0 10px 20px 105px}
+.container .col-lg-4 img.arrow{margin-left:40px}
+.promote .icon img{background-position:center center;background-repeat:no-repeat;left:20px;position:absolute;top:65px;width:75px}
+.col-lg-12{text-align:center}
+.container .col-lg-12{text-align:center;padding-top:60px}
+.col-lg-12 h1{font-family:'Open Sans',sans-serif;font-size:30px;font-style:italic;font-weight:600}
+.col-lg-12 p{font-family:'Roboto Slab',serif;font-weight:300;font-size:22px;padding:40px 0;max-width:800px;position:relative;left:150px}
+.col-lg-6 p{font-size:15px;line-height:1.9;margin-top:10px;padding:20px}
+.aboutme{background-color:#f4fae5}
+.research,.aboutme{padding-bottom:60px}
+.col-lg-6 p span{font-family:'Open Sans',sans-serif}
+.col-lg-6 ul li{list-style-type:none;float:left;margin-right:25px;margin-top:-15px}
+.research .col-lg-6 ol li{margin:0;padding-top:15px;font-size:15px}
+.research .col-lg-6 ol li.first{padding-top:0}
+.col-lg-3 h3{font-family:'Open Sans',sans-serif;font-size:18px;font-weight:400;margin-top:30px}
+.col-lg-3 ul{margin-top:20px;padding:0}
+.col-lg-3 ul li{list-style-type:none;font-family:'Roboto Slab',serif;font-weight:300;padding-bottom:15px;font-size:15px}
+.col-lg-3 p.older{font-family:'Open Sans',sans-serif}
+#filters-container{text-align:center;margin:20px 0 35px 0}
+button.cbp-filter-item{border:0;font-family:'Open Sans',sans-serif;font-weight:600;background-color:#fff;color:#f45429;font-size:15px;margin-right:20px}
+button.cbp-filter-item:hover,button.cbp-filter-item-active{color:#c23a1a}
+.cbp-l-filters-alignCenter{margin:0 auto 50px;text-align:center;font-size:12px;color:#cacaca}
+.cbp-l-loadMore-text-link{display:none}
+.cbp-l-filters-alignCenter .cbp-filter-item{color:#5a5a5a;cursor:pointer;font:400 13px 'Open Sans',sans-serif;padding:0 12px;transition:all .3s ease-in-out;position:relative;overflow:visible;margin:10px 0 0;border:medium none;background-color:transparent}
+.thumbnails{text-align:center}
+.inprogress img{cursor:pointer;width:100px;height:100px;padding:4px;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;margin:10px}
+.col-lg-6 .inprogress p.thumb1,.col-lg-6 .inprogress p.thumb2,.col-lg-6 .inprogress p.thumb3,.col-lg-6 .inprogress p.thumb4{display:none}
+.thoughts{padding-bottom:60px}
+.thoughts h3{font-size:16px}
+.thoughts .col-sm-4 .thumbnail{height:250px}
+.thoughts .col-lg-6 .social{position:relative;right:20px}
+.thoughts .col-lg-6 .social ul li{margin-top:50px;margin-right:21px}
+.thoughts .col-lg-6 h1{text-align:center;font-family:'Roboto Slab',serif;position:relative;top:25px}
+footer{background-image:url('../img/footer-bg_1.jpg');height:885px;background-attachment:fixed;background-position:center bottom;background-size:cover;position:relative;width:100%;margin:0 auto}
+footer p{text-align:center;font-family:'Open Sans',sans-serif;font-size:13px;color:#fff}
+footer p.copy{position:relative;top:715px}
+footer p.copy a{color:#fff;text-decoration:underline}
+footer p.top{position:relative;top:250px;cursor:pointer;font-family:'Meddon',sans-serif;font-size:45px}
+.clearfix{clear:both}
+@media(min-width:1200px){...}
+@media(min-width:993px) and (max-width:1199px){.jumbotron h1{font-size:75px}
+.container .col-lg-4 p{margin-bottom:40px}
+.col-lg-12 p{position:relative;left:90px;max-width:740px}
+.thoughts .col-sm-4 .thumbnail{height:290px;margin-bottom:25px}
+.thoughts .col-lg-6 .social{position:relative;bottom:35px}
+footer{height:685px}
+footer p.copy{top:520px}
+}
+@media(min-width:768px) and (max-width:992px){.jumbotron p{font-size:24px}
+.container .col-lg-4 p{margin-bottom:70px}
+.col-lg-12 p{position:relative;left:0;max-width:740px}
+button.cbp-filter-item{margin-right:15px}
+.thoughts .col-sm-4 .thumbnail{height:300px;margin-bottom:25px}
+.thoughts .col-lg-6 .social{position:relative;bottom:35px}
+footer{height:685px}
+footer p.copy{top:500px;margin:0 130px}
+}
+@media(max-width:767px){.jumbotron h1{font-size:70px}
+.jumbotron p{font-size:20px}
+.container .col-lg-4 p{margin-bottom:60px}
+.col-lg-12 p{position:relative;left:0;font-size:20px;padding:30px 15px 0 15px}
+button.cbp-filter-item{margin-right:15px}
+.thoughts .col-sm-4 .thumbnail{height:300px;margin-bottom:25px}
+.thoughts .col-lg-6 .social{position:relative;bottom:35px}
+.thumbnail .caption{text-align:center}
+footer{height:685px}
+footer p.top{font-size:35px}
+footer p.copy{top:500px;margin:0 30px}
+}
+@media(max-width:480px){.jumbotron h1{font-size:60px}
+.jumbotron p{font-size:20px}
+.promote .col-lg-4{margin-bottom:5px}
+.col-lg-12 p{position:relative;left:0;font-size:20px}
+button.cbp-filter-item{margin-right:15px}
+.thoughts .col-sm-4 .thumbnail{height:300px;margin-bottom:25px}
+.thoughts .col-lg-6 .social{position:relative;bottom:35px}
+footer{height:685px}
+footer p.top{font-size:35px}
+footer p.copy{top:490px;margin:0 30px}
+}
+@media(max-width:435px){.jumbotron h1{font-size:50px}
+.thoughts .col-sm-4 .thumbnail{height:300px}
+}
+@media(max-width:320px){.jumbotron h1{font-size:40px}
+}
